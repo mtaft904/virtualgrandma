@@ -24,7 +24,7 @@ const newText = document.getElementById("newText");
 
 
 newText.addEventListener('click', ()=>{
-  grandmaText.textContent = texts[Math.floor(Math.random() * texts.length)];
+  grandmaText.textContent = texts[Math.floor(Math.random() * texts.length)]+ "\n" + "Love, "  +  gma;
 })
 
 const texts = ["Hi " + name + ". Thinking of you!",
@@ -51,4 +51,5 @@ const texts = ["Hi " + name + ". Thinking of you!",
 name + " remember your own genuine self is the best self you can be!",
 "Hi " + name + "! Have you seen this cute brave rat? https://people.com/pets/hero-rat-awarded-gold-medal-for-detecting-landmines-cambodia/"]
 
-grandmaText.textContent = texts[Math.floor(Math.random() * texts.length)];
+grandmaText.textContent = texts[Math.floor(Math.random() * texts.length)] + "\n"+ "Love, " + gma;
+
