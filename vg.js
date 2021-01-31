@@ -13,6 +13,10 @@ console.log(gma);
 ynList.forEach((item) => {
       item.textContent = name;
   });
+gnList.forEach((item) => {
+    item.textContent = gma;
+});
+
 
 const grandmaText = document.getElementById("text");
 
