@@ -45,9 +45,13 @@ main{
     margin-bottom: 50px;
 
 }
+#hello{
+  width: 80%;
+  margin:auto;
+}
 #welcome p{
   font-family: 'Roboto', sans-serif;
-  font-size: 12pt;
+  font-size: 18pt;
 }
 .item{
   width: 75%;
@@ -71,7 +75,7 @@ main{
   width: 40%;
   height: 100%;
   text-align: center;
-  font-size: 20pt;
+  font-size: 25pt;
   border: 2px solid white;
   padding: 20px;
   margin-left: 20px;
