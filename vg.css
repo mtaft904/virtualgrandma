@@ -44,7 +44,7 @@ main{
 #welcome p{
   margin-top: 20px;
   font-family: 'Open Sans', sans-serif;
-
+  font-size: 12pt;
 }
 .item{
   width: 75%;
