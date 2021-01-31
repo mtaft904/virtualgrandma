@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Dancing+Script&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 :root{
   --primary: blue;
@@ -45,7 +46,7 @@ main{
 
 }
 #welcome p{
-  font-family: 'Dancing Script', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12pt;
 }
 .item{
@@ -75,6 +76,7 @@ main{
   padding: 20px;
   margin-left: 20px;
   border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-p{
@@ -82,7 +84,7 @@ main{
   width: 45%;
   padding: 20px;
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 
 }
 .text-p p{
@@ -94,7 +96,7 @@ main{
   margin-top: 30px;
   width: 40%;
   height: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 12pt;
 }
 .button:hover{
