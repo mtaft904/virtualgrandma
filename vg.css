@@ -10,6 +10,8 @@
 
 h1{
   font-size: 70pt;
+  font-family: 'Shadows Into Light', cursive;
+
 }
 header{
   height: 50px;
@@ -17,8 +19,8 @@ header{
 
 body{
   display: block;
-  background: rgb(197,249,215);
-background: linear-gradient(0deg, rgba(197,249,215,1) 0%, rgba(247,212,134,1) 46%, rgba(242,122,125,1) 100%);
+  background: rgb(255,237,160);
+  background: linear-gradient(0deg, rgba(255,237,160,1) 0%, rgba(255,167,133,1) 81%);
 }
 
 button{
@@ -38,7 +40,6 @@ main{
     padding-top: 100px;
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Shadows Into Light', cursive;
 
 }
 #welcome p{
@@ -106,4 +107,21 @@ footer{
   margin-top: 50px;
   font-family: 'Open Sans', sans-serif;
   font-size: 10pt;
+}
+
+/*inspiration.html style sheet*/
+.prompt{
+  width: 80%;
+  text-align: center;
+  height: 300px;
+  padding: 50px;
+  margin: auto;
+}
+.prompt h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20pt;
+  margin-bottom: 30px;
+}
+.prompt button{
+  height: 100px;
 }
