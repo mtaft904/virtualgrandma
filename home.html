@@ -2,47 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Virtual Grandma</title>
+    <title>Grandma's Recipes</title>
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css" type="text/css">
-    <link rel="stylesheet" href="vg.css" type="text/css">
+    <link rel="stylesheet" href="vg.css">
+    <style>
+      main{
+        text-align: center;
+      }
+
+      h1{
+        margin-top: 50px;
+      }
+    </style>
   </head>
   <body>
-    <header></header>
-      <main>
-      <div id="welcome">
-        <h1>Hi <span class="yn">y/n</span>! G/N here.</h1>
-        <img src = "grandmaicon.png" alt = "your grandma">
-        <p>Welcome home, <span class="yn">y/n</span>. Want some cookies?</p>
+    <header>
+      <a href="home.html">Virtual Grandma</a>
+    </header>
+    <main>
+      <h1 style="padding: 30px; margin-bottom: 30px">Grandma's Recipes</h1>
+      <div class="circles">
+        <button class="recipe-item" id="cookies" onclick = "window.open('https://tasty.co/recipe/chocolate-chip-cookies-granny-style', '_blank')">
+          <h3>Chocolate Chip Cookies</h3>
+        </button>
+        <button class="recipe-item" id="bread" onclick = "window.open('https://therecipecritic.com/homemade-bread/', '_blank')">
+          <h3>Loaf of Bread</h3>
+        </button>
       </div>
-      <div class="item" id="daily-text">
-        <div id="text">
-          This is your text from grandma.
-        </div>
-        <div class="text-p">
-          <h3 class="subheader">Texts from G/N</h3>
-          <p>Don't forget to check your messages for inspiring, loving, and sometimes random texts from G/N!</p>
-          <button class="button" id="newText">Get another text!</button>
-        </div>
-      </div>
-      <div class="item" id="recipes">
-        <div class="text-p">
-        <h3 class="subheader">G/N's Recipe Book</h3>
-        <p>Even virtually, G/N wants to make sure you're eating well!</p>
-        <button class="button" onclick="window.location='recipes.html'">Recipes</button>
-        </div>
-      </div>
-      <div class="item" id="journal">
-        <div style="width:50%"></div>
-        <div class="text-p">
-          <h3 class="subheader">Get Creative With G/N</h3>
-          <p>Take a break from the stress and get crafty!</p>
-          <button onclick="window.location='inspiration.html'"class="button">Get some inspiration!</button>
-        </div>
+      <div class="circles">
+        <button class="recipe-item" id="spaghetti" onclick = "window.open('https://arrisje.com/grandmas-spaghetti/', '_blank')">
+          <h3>Spaghetti</h3>
+        </button>
       </div>
     </main>
     <footer>
       <p>Created by Madeleine Taft and Mary Pletcher. Jan 30, 2021.</p>
     </footer>
-    <script src="vg.js" type="text/javascript"></script>
   </body>
 </html>
