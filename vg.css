@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 :root{
   --primary: blue;
   --secondary: salmon;
@@ -5,7 +9,7 @@
 }
 
 h1{
-  font-size: 50pt;
+  font-size: 70pt;
 }
 header{
   height: 50px;
@@ -13,7 +17,8 @@ header{
 
 body{
   display: block;
-  background: var(--secondary);
+  background: rgb(197,249,215);
+background: linear-gradient(0deg, rgba(197,249,215,1) 0%, rgba(247,212,134,1) 46%, rgba(242,122,125,1) 100%);
 }
 
 button{
@@ -33,9 +38,13 @@ main{
     padding-top: 100px;
     text-align: center;
     margin-bottom: 50px;
+    font-family: 'Shadows Into Light', cursive;
+
 }
 #welcome p{
   margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .item{
   width: 75%;
@@ -44,10 +53,11 @@ main{
   margin: auto;
   display: flex;
   flex-direction: row;
-  //border: 2px solid black;
 }
 .subheader{
   font-size: 25pt;
+  font-family: 'Shadows Into Light', cursive;
+
 }
 
 #daily-text{
@@ -70,6 +80,8 @@ main{
   width: 45%;
   padding: 20px;
   height: 100%;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .text-p p{
   padding-top: 30px;
@@ -80,6 +92,8 @@ main{
   margin-top: 30px;
   width: 40%;
   height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
 }
 .button:hover{
   box-shadow: 0 0 10px black;
@@ -90,4 +104,6 @@ footer{
   padding: 25px;
   text-align: center;
   margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
 }
