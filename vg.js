@@ -1,3 +1,19 @@
+const formButton = document.getElementById("form-button");
+
+const ynList = document.querySelectorAll(".yn");
+const gnList = document.querySelectorAll(".gn");
+
+
+var name = sessionStorage.getItem("name");
+var gma  = sessionStorage.getItem("gma");
+console.log(name);
+console.log(gma);
+
+
+ynList.forEach((item) => {
+      item.textContent = name;
+  });
+
 const grandmaText = document.getElementById("text");
 
 const newText = document.getElementById("newText");
